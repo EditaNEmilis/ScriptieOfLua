@@ -1,0 +1,1 @@
+Channel:Set3DFadeDistance(200, 1000000000)
