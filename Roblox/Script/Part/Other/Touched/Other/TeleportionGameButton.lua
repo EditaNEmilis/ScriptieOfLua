@@ -4,6 +4,7 @@ local button = script.Parent
 
 button.Touched:Connect(function(hit)
 	local player = game.Players:GetPlayerFromCharacter(hit.Parent)
+
 	if player then
 		teleportservice:Teleport(1334669864, player)
 	end
