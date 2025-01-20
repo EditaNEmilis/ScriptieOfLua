@@ -1,8 +1,9 @@
 local lighting = game.Lighting
-local hr = 14
-local min = 0
-local sec = 0
+local hr = 14 -- Hour
+local min = 0 -- Minute
+local sec = 0 -- Second
 
+-- Loop Cycle
 while wait(0.1) do
 	lighting.TimeOfDay = ((hr)..":"..(min)..":"..(sec))
 	sec = sec + 30
