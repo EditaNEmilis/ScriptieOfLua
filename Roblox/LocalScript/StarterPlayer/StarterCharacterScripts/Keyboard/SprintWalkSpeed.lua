@@ -1,3 +1,4 @@
+-- Locals
 local userinput = game:GetService("UserInputService")
 local players = game.Players.LocalPlayer
 

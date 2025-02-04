@@ -9,6 +9,7 @@ mouse.Button1Down:Connect(function()
 		return nil
 	end
 
+	-- Collection checking
 	if collection:HasTag(mouse.Target, "Click") then
 		print("Clicked!")
 	end
