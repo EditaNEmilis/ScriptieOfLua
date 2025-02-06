@@ -2,6 +2,7 @@
 local player = game.Players.LocalPlayer
 local camera = workspace.CurrentCamera
 
+-- CharacterAdded and WaitForChild
 player.CharacterAdded:Wait()
 player.Character:WaitForChild("Head")
 
