@@ -1,5 +1,6 @@
 local brick = script.Parent
 
+-- Repeat Loop
 while true do
 	brick.BrickColor = BrickColor.new("Really red")
 	wait(1)
