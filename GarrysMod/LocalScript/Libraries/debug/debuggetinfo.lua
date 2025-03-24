@@ -1,0 +1,1 @@
+PrintTable(debug.getinfo(net.Receive))
