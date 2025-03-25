@@ -1,0 +1,1 @@
+SetClipboardText("Hello world!")
