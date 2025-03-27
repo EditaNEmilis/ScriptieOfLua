@@ -1,0 +1,1 @@
+print(gui.MouseX(), gui.MouseY())
