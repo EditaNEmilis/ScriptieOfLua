@@ -1,0 +1,1 @@
+print("Server Tick:" , (1 / engine.ServerFrameTime()))
