@@ -1,8 +1,9 @@
-local textbutton = script.Parent.TextButton
+local textButton = script.Parent.TextButton
 
-textbutton.MouseButton1Click:Connect(function()
-	local text = script.Parent.TextLabel
-	if text then
-		text.Visible = true
+textButton.MouseButton1Click:Connect(function()
+	local textLabel = script.Parent.TextLabel
+
+	if textLabel then
+		textLabel.Visible = true
 	end
 end)

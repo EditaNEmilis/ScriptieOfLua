@@ -1,7 +1,6 @@
 local textButton = script.Parent
-local counter = 0
+local remoteEvent = script.Parent.RemoteEvent
 
 textButton.MouseButton1Click:Connect(function()
-    counter = counter + 1
-    print(counter)
+	remoteEvent:FireServer()
 end)

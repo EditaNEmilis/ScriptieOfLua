@@ -1,13 +1,14 @@
-local textbutton = script.Parent.TextButton
-local boolean = true
+local textButton = script.Parent.TextButton
+local bool = true
 
-textbutton.MouseButton1Click:Connect(function()
+textButton.MouseButton1Click:Connect(function()
 	local frame = script.Parent.Frame
-	if boolean == true then
+
+	if bool == true then
 		frame.Visible = false
-		boolean = false
+		bool = false
 	else
 		frame.Visible = true
-		boolean = true
+		bool = true
 	end
 end)
