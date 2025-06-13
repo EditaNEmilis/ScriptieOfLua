@@ -1,24 +1,24 @@
 local dummy = script.Parent
 
 -- Function
-function closetplayer()
+function closetPlayer()
 	local closest = nil
-	local closestdist = 25
+	local closestDist = 25
 	for _, plrs in pairs(workspace:GetChildren()) do
 		if plrs:FindFirstChild("Humanoid") and plrs ~= dummy then
 			local dist = (dummy.PrimaryPart.Position - plrs.PrimaryPart.Position).Magnitude
-			if dist < closestdist then
+			if dist < closestDist then
 				closest = plrs
-				closestdist = dist
+				closestDist = dist
 			end
 		end
 	end
-	return closest, closestdist
+	return closest, closestDist
 end
 
 -- Running
 while true do
-	local plr, dist = closetplayer()
+	local plr, dist = closetPlayer()
 	if plr and dist > 10 then
 		dummy.Humanoid:MoveTo(plr.PrimaryPart.Position)
 		local stop = false

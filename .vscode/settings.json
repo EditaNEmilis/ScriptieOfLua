@@ -1,5 +1,12 @@
 {
     "Lua.diagnostics.globals": [
-        "LocalPlayer"
+        "LocalPlayer",
+    ],
+    "Lua.diagnostics.disable": [
+        "undefined-global",
+        "duplicate-set-field",
+        "undefined-field",
+        "redundant-parameter",
+        "lowercase-global",
     ]
 }
