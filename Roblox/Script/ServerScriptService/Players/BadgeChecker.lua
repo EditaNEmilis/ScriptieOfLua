@@ -9,7 +9,7 @@ players.PlayerAdded:Connect(function(player)
 	local hasbadge = pcall(function()
 		return badgeservice:UserHasBadgeAsync(player.UserId, badgeid)
 	end)
-	
+
 	-- Badge checking
 	if hasbadge then
 		print(player.Name, "Has gotten the badge!")

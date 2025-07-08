@@ -6,13 +6,13 @@ game.Players.PlayerAdded:Connect(function(plr)
 	-- Set leaderstats
 	local leaderstats = Instance.new("Folder", plr)
 	leaderstats.Name = "leaderstats"
-	
+
 	-- New instance NumberValue
 	local money = Instance.new("NumberValue", leaderstats)
 	money.Name = "Money"
 	money.Value = 0
 	money.Parent = leaderstats
-	
+
 	-- GetAsync DATA
 	local dataload = datastore:GetAsync(tostring(plr.UserId))
 	if dataload then
