@@ -1,3 +1,4 @@
+-- Locals
 local brick = script.Parent
 local shapes = {
 	"Ball",
@@ -7,5 +8,6 @@ local shapes = {
 	"Wedge"
 }
 
+-- Randomness to select a shape
 local i = math.random(1, #shapes)
-brick.Shape = shapes[i]
+brick.Shape = shapes[i] -- Apply

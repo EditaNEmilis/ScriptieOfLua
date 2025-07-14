@@ -11,9 +11,9 @@ players.PlayerAdded:Connect(function(player)
 	end)
 
 	-- Badge checking
-	if hasbadge then
+	if hasbadge then -- If the player has the badge
 		print(player.Name, "Has gotten the badge!")
-	elseif not hasbadge then
+	elseif not hasbadge then -- If the player hasn't gotten the badge
 		print(player.Name, "Hasn't gotten the badge!")
 	end
 end)
