@@ -1,0 +1,1 @@
+Chat:BroadcastMessage("Hello, chat!")
