@@ -1,4 +1,4 @@
--- GetService local
+-- GetService 'Teams' local
 local teams = game:GetService("Teams")
 
 --- Teams
@@ -36,11 +36,11 @@ local function PlayerRemoved(team)
 	elseif team == blueteam then
 		numblue = numblue - 1
 	end
-	
+
 	-- Small and big locals
 	local smallteam = nil
 	local bigteam = nil
-	
+
 	-- Unbalance check
 	if (numred - numblue) > 2 then
 		bigteam = redteam
@@ -49,12 +49,12 @@ local function PlayerRemoved(team)
 		bigteam = blueteam
 		smallteam = redteam
 	end
-	
+
 	if bigteam then
 		-- Player locals
 		local playerlist = bigteam:GetPlayers()
 		local player = playerlist[math.random(1, #playerlist)]
-		
+
 		-- If player exists
 		if player then
 			player.TeamColor = smallteam.TeamColor
@@ -65,6 +65,7 @@ local function PlayerRemoved(team)
 end
 
 -- Connect functions
+-- Red Team
 redteam.PlayerAdded:Connect(function(_player)
 	PlayerAdded(redteam)
 end)
@@ -73,6 +74,7 @@ redteam.PlayerRemoved:Connect(function(_player)
 	PlayerRemoved(redteam)
 end)
 
+-- Blue Team
 blueteam.PlayerAdded:Connect(function(_player)
 	PlayerAdded(blueteam)
 end)
