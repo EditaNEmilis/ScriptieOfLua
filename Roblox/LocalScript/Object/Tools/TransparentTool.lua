@@ -1,3 +1,4 @@
+-- Locals
 local tool = script.Parent
 local handle = tool:WaitForChild("Handle")
 
@@ -24,6 +25,7 @@ tool.Equipped:Connect(function()
 	end
 end)
 
+-- Task loop
 while task.wait(0) do
 	Transparent()
 end
