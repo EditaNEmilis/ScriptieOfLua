@@ -1,5 +1,6 @@
 local TextEntry = vgui.Create("DTextEntry", frame) -- create the form as a child of frame
 
+-- TextEntry settings
 TextEntry:SetPos(25, 50)
 TextEntry:SetSize(75, 85)
 TextEntry:SetText("Sample String")

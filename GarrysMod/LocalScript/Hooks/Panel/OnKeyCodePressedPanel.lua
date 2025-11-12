@@ -4,7 +4,8 @@ concommand.Add("testvgui", function(ply)
 	DFrame:SetSize(300, 200)				-- Set the size to 300x by 200y
 	DFrame:SetTitle("Derma Frame")		-- Set the title in the top left to 'Derma Frame'
 	DFrame:MakePopup()						-- Make the frame take user's input
-	function DFrame:OnKeyCodePressed(...) 
+
+	function DFrame:OnKeyCodePressed(...)
 		print("OnKeyCodePressed", ...)	-- Print something when a key is pressed
 	end
 end)
