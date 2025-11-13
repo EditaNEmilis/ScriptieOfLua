@@ -17,7 +17,7 @@ for i = 1, x do
 			local part = Instance.new("Part")
 
 			part.Size = Vector3.new(1, 1, 1)
-			part.Position = Vector3.new(i, 5+ j, k)
+			part.Position = Vector3.new(i, 5 + j, k)
 			part.Parent = folder
 			part.Anchored = true
 		end
