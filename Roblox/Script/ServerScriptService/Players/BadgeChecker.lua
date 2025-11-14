@@ -6,6 +6,7 @@ local badgeid = 66918518 -- Natural Disaster Survival badge
 
 -- Function
 players.PlayerAdded:Connect(function(player)
+	-- HasBadge pcall function
 	local hasbadge = pcall(function()
 		return badgeservice:UserHasBadgeAsync(player.UserId, badgeid)
 	end)
