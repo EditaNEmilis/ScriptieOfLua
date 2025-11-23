@@ -1,0 +1,1 @@
+CoreUI.CanRespawn = false -- Determines whether or not the player can respawn
