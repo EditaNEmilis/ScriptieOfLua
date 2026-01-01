@@ -5,7 +5,7 @@ frame:SetSize(500, 500)
 frame:SetPaintedManually(true)
 
 -- Hook PaintManual
-hook.Add( "PostDrawTranslucentRenderables", "PaintManual Test", function()
+hook.Add("PostDrawTranslucentRenderables", "PaintManual Test", function()
     -- If frame is valid
 	if IsValid(frame) then
 		local eyePos = Entity(1):EyePos()
