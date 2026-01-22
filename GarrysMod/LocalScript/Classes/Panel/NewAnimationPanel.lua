@@ -16,12 +16,12 @@ function butt:doAnim()
 	end)
 
     -- Think
-	anim.Think = function( anim, pnl, fraction )
+	anim.Think = function(anim, pnl, fraction)
 		local radius = 200
 
         -- Position
-		pnl:SetPos(250 + math.sin(Lerp( fraction, -math.pi, math.pi )) * radius - pnl:GetWide() / 2,
-					250 + math.cos(Lerp( fraction, -math.pi, math.pi )) * radius - pnl:GetTall() / 2)
+		pnl:SetPos(250 + math.sin(Lerp(fraction, -math.pi, math.pi)) * radius - pnl:GetWide() / 2,
+					250 + math.cos(Lerp(fraction, -math.pi, math.pi)) * radius - pnl:GetTall() / 2)
 
         -- Button Text for fraction and time
 		pnl:SetText("Frac: " .. fraction .. "\nTime: " .. (SysTime() - anim.StartTime))
