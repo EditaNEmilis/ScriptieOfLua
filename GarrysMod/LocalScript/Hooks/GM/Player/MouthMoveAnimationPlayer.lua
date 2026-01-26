@@ -9,8 +9,10 @@ function GM:MouthMoveAnimation(ply)
 		ply:GetFlexIDByName("right_mouth_drop")
 	}
 
+	-- Weight
 	local weight = ply:IsSpeaking() && math.Clamp(ply:VoiceVolume() * 2, 0, 2) || 0
 
+	-- Loop pairs
 	for k, v in pairs(flexes) do
 		ply:SetFlexWeight(v, weight)
 	end
