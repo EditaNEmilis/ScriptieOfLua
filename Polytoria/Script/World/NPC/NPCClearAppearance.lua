@@ -1,3 +1,3 @@
 local npc = script.Parent
 
-npc:ClearAppearance()
+npc:ClearAppearance() -- Clear the appearance

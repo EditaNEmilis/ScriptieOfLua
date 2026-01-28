@@ -1,6 +1,7 @@
 local brick = game["Environment"]["Brick"]
 local valuePos = 0
 
+-- Loop
 while true do
     wait(0.1)
     valuePos = valuePos + 0.1
