@@ -1,3 +1,4 @@
+-- Locals
 local entity = Entity(1)
 local manhack = ents.Create("npc_manhack")
 

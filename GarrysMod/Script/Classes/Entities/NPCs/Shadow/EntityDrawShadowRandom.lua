@@ -1,5 +1,5 @@
 for _, npc in ipairs(ents.FindByClass("npc_*")) do
-    local drawing = math.random(1, 2)
+    local drawing = math.random(1, 2) -- Random
     if drawing == 1 then -- Draw the shadows
         npc:DrawModel()
         npc:DrawShadow(true)
