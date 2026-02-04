@@ -1,3 +1,3 @@
 local ply = Entity(1)
 
-ply:SprintEnable()
+ply:SprintEnable() -- Enable to sprint
