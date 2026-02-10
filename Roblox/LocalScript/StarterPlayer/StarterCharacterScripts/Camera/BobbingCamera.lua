@@ -8,9 +8,11 @@ local humanoid = char:WaitForChild("Humanoid")
 function BobbingEffect()
 	local currenttime = tick()
 	if humanoid.MoveDirection.Magnitude > 0 then
+		-- Bobble maths
 		local bobbleX = math.cos(currenttime * 10) * .25
 		local bobbleY = math.abs(math.sin(currenttime *25)) * .25
 
+		-- Apply bobble
 		local bobble = Vector3.new(bobbleX, bobbleY, 0)
 
 		humanoid.CameraOffset = humanoid.CameraOffset:lerp(bobble, .25)

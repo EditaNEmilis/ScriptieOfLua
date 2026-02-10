@@ -4,6 +4,7 @@ local userinputservice = game:GetService("UserInputService")
 local players = game:GetService("Players").LocalPlayer
 local mouse = players:GetMouse()
 
+-- Camera locals
 local camera = workspace.CurrentCamera
 local currcam = CFrame.new(0, 5, 0)
 local camrotation = Vector2.new(0, 0)
@@ -14,6 +15,7 @@ local sensitivity = 0.01
 runservice.RenderStepped:Connect(function()
 	camera.CameraType = Enum.CameraType.Scriptable
 
+	---
 	-- Movement
 	if userinputservice:IsKeyDown(Enum.KeyCode.W) then
 		currcam += camera.CFrame.LookVector * speed
@@ -30,7 +32,9 @@ runservice.RenderStepped:Connect(function()
 	if userinputservice:IsKeyDown(Enum.KeyCode.D) then
 		currcam += camera.CFrame.RightVector * speed
 	end
+	---
 
+	---
 	-- Up and Down
 	if userinputservice:IsKeyDown(Enum.KeyCode.Q) then
 		currcam += camera.CFrame.UpVector * speed
@@ -39,6 +43,7 @@ runservice.RenderStepped:Connect(function()
 	if userinputservice:IsKeyDown(Enum.KeyCode.E) then
 		currcam -= camera.CFrame.UpVector * speed
 	end
+	---
 
 	-- Look
 	local delta = userinputservice:GetMouseDelta() * sensitivity

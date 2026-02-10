@@ -8,7 +8,7 @@ local humanoidrootpart = character:WaitForChild("HumanoidRootPart")
 -- Function Render
 function Render()
 	local workspace = game.Workspace:GetChildren()
-	
+
     -- Finding Parts
 	for i = 1, #workspace do
 		if (workspace[i].Name == "Part") then

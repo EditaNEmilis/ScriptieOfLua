@@ -23,16 +23,16 @@ function Grab(actionName, UserInputState, InputObject)
 				if mouse.Target then
 					grabobject = mouse.Target
 					grabstart = true
-					
+
 					local dragball = CreateDragBall()
 					dragball.CFrame = mouse.Hit
 					drag = dragball
-					
+
 					mouse.TargetFilter = grabobject
-					
+
 					local dragballweld = WeldBetween(dragball, grabobject)
 					Mover(dragball)
-					
+
 					while drag and wait(0.01) do
 						-- Create Ray
 						local cf = CFrame.new(character.Head.Position, mouse.Hit.Position)
@@ -73,7 +73,7 @@ function Mover(part)
 	newmover.D = 500
 	newmover.Position = part.Position
 	newmover.Name = "Mover"
-	
+
 	-- RotMover
 	local newrot = Instance.new("BodyGyro")
 	newrot.Parent = part
@@ -82,7 +82,7 @@ function Mover(part)
 	newrot.D = 500
 	newrot.CFrame = game.Workspace.CurrentCamera.CFrame
 	newrot.Name = "RotMover"
-	
+
 	-- RotOffset
 	local rotoffset = Instance.new("CFrameValue")
 	rotoffset.Name = "RotOffset"
