@@ -5,7 +5,7 @@ starterGui:SetCore("AvatarContextMenuTheme", {
 	BackgroundImage = "", -- Background Image ID
 	BackgroundTransparency = 0.5, -- Background Transparency
 
-	-- Colors
+	-- Set Colors
 	BackgroundColor = Color3.fromRGB(111, 145, 242),
 	NameTagColor = Color3.fromRGB(0, 0, 200),
 	NameUnderlineColor = Color3.fromRGB(213, 233, 255),
