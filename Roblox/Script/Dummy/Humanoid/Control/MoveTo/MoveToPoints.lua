@@ -11,6 +11,6 @@ end
 
 -- Loop
 while true do
-	wait(5)
-	Moveto()
+	wait(5) -- Wait for 5 seconds
+	Moveto() -- Move to the next point
 end

@@ -6,6 +6,7 @@ while wait(0.01) do
 	lighting.GeographicLatitude = (gl)
 	gl = gl + 0.1
 
+	-- Reset if its full 360
 	if gl >= 360 then
 		gl = 0
 	end
