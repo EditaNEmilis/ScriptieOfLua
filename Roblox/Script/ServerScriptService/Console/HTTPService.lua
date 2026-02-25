@@ -15,7 +15,7 @@ local function printISS()
 		data = HttpService:JSONDecode(response)
 	end)
 
-	-- Did our request fail or our JSON fail to parse?
+	-- Check if our request fail OR our JSON fail to parse?
 	if not data then
 		return false
 	end
@@ -33,7 +33,7 @@ end
 
 -- Check
 if printISS() then
-	print("Success HTTP request")
+	print("Success HTTP request") -- Print working
 else
-	warn("Something went wrong with the request")
+	warn("Something went wrong with the request") -- Failed to print something
 end

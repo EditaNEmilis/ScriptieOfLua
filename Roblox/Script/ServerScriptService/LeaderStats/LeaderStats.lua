@@ -1,4 +1,4 @@
--- Local function
+-- Local function for leaderstats
 local function onPlayerJoin(player)
 	-- Leaderstats folder
 	local leaderstats = Instance.new("Folder")
@@ -18,5 +18,5 @@ local function onPlayerJoin(player)
 	level.Parent = leaderstats
 end
 
--- Run function
+-- Run the function
 game.Players.PlayerAdded:Connect(onPlayerJoin)
