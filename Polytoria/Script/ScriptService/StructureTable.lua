@@ -1,6 +1,8 @@
 -- Structure
 local struct = {
+    -- Object
     ["Gun"] = {
+        -- Data
         ["Info"] = "A pistol that fires bullets, basic as that.",
         ["Price"] = "100",
         ["Damage"] = "10",
