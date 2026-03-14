@@ -1,3 +1,3 @@
 local decal = game["Environment"]["Decal"]
 
-decal.TextureOffset = Vector2.New(0, 0)
+decal.TextureOffset = Vector2.New(0, 0) -- Vector Position
