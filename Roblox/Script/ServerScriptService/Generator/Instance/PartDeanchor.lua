@@ -24,9 +24,9 @@ for i = 1, x do
 	end
 end
 
-print("Parts collected, waiting to deanchor..")
+print("Parts collected, waiting to deanchor..") -- Print
 
-wait(5)
+wait(5) -- Delay before deanchoring all parts
 
 -- Deanchor
 for i, part in ipairs(folder:GetChildren()) do

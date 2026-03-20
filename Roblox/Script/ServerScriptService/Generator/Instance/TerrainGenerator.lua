@@ -9,7 +9,7 @@ for x = 1, x do
 	grid[x] = {}
 
 	for z = 1, z do
-		grid[x][z] = math.noise(x/10, z/10) * 15
+		grid[x][z] = math.noise(x / 10, z / 10) * 15
 	end
 end
 
@@ -32,7 +32,7 @@ for x = 1, x do
 		end
 
         -- Set part position, size and parent
-		part.Position = Vector3.new(x*5, grid[x][z], z*5)
+		part.Position = Vector3.new(x * 5, grid[x][z], z * 5)
 		part.Size = Vector3.new(5, math.random(1, 10), 5)
 		part.Parent = workspace
 	end

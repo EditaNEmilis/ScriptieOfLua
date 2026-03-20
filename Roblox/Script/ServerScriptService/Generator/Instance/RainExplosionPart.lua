@@ -18,7 +18,7 @@ while wait(0.1) do
 
 			wait(0.2) -- Small delay before destorying it
 
-			part:Destroy()
+			part:Destroy() -- Destroy
 		end
 	end)
 end
