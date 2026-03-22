@@ -4,9 +4,9 @@ local player = game.Players.LocalPlayer
 local char = player.Character or player.CharacterAdded:Wait()
 local humanoid = char:WaitForChild("Humanoid")
 
-local candoublejump = false
-local hasdoublejump = false
-local timing = 0.2
+local candoublejump = false -- Boolean
+local hasdoublejump = false -- Boolean
+local timing = 0.2 -- Time
 
 -- Function Jump
 function Jump()

@@ -10,6 +10,7 @@ character.Humanoid.Died:Connect(function()
 		end
 	end
 
+	-- Check player backpack
 	if players[character.Name]:FindFirstChild("Backpack") then
 		for _, tool in pairs(players[character.Name].Backpack:GetChildren()) do
 			tool.Parent = game.Workspace -- Remove it from the backpack
