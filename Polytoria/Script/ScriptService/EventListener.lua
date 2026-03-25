@@ -6,6 +6,8 @@ end
 -- Listener
 -- Connect if it has been touched
 game["Environment"]["Brick"].Touched:Connect(hitListener)
+
 wait(2) -- Wait..
--- Disconnect when the event is fired
+
+-- Disconnect after the event has been fired
 game["Environment"]["Brick"].Touched:Disconnect(hitListener)

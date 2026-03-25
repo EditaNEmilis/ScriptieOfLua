@@ -5,6 +5,7 @@ game["Players"].PlayerAdded:Connect(function(player)
             player.Health = 0
         end
 
+        -- If the player has no health
         if player.Health == 0 then
             player.RespawnTime = 9999 -- Set RespawnTime
 
