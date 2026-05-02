@@ -1,6 +1,7 @@
 -- Base
 local BASE = {}
 
+-- Function base
 function BASE:Init()
 	print("Base Init Called")
 end
@@ -8,6 +9,7 @@ end
 -- Panel
 local PANEL = {}
 
+-- Function panel
 function PANEL:Init()
 	print("Panel Init Called")
 end
