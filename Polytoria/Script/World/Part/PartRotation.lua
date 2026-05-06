@@ -5,5 +5,5 @@ local valueRot = 0
 while true do
     wait(0.1)
     valueRot = valueRot + 5
-    brick:MoveRotation(Vector3.New(0, valueRot, 0))
+    brick:MoveRotation(Vector3.New(0, valueRot, 0)) -- Apply rotation value to Y
 end
