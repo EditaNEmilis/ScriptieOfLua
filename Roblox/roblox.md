@@ -36,9 +36,6 @@ end
 Links for this page:
 
 * [Roblox Documents](https://create.roblox.com/docs)
-
----
-
 * [Luau](https://luau.org/)
-* [Luau Repo](https://github.com/luau-lang/luau)
+* [Luau GitHub Repo](https://github.com/luau-lang/luau)
 * [Luau Documentation](https://create.roblox.com/docs/luau)
