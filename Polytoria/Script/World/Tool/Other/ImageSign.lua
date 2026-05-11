@@ -2,7 +2,7 @@ local tool = script.Parent
 local handle = tool["Handle"]
 local decal = handle["ImageSignPart"]["Decal"]
 
-local imageID = 0
+local imageID = 0 -- Image ID number
 
 -- Equip
 tool.Equipped:Connect(function()
@@ -32,8 +32,8 @@ tool.Equipped:Connect(function()
         if getID == "" then
             return nil
         else
-            imageID = tonumber(getID)
-            decal.ImageID = imageID
+            imageID = tonumber(getID) -- ID number
+            decal.ImageID = imageID -- Decal as the ID
         end
     end)
 end)
