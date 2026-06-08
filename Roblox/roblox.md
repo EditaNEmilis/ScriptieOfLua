@@ -10,14 +10,15 @@ Roblox's Lua for game scripting is called **Luau**.
 
 ## Examples
 
-*'Hello World!'*:
+*'Hello World!' printing*:
 
 ```luau
 -- Basic and simple print function
 print("Hello World!")
 ```
 
-*Loop*:
+*Loop number*:
+
 ```luau
 -- Print by 10 times from looping by i
 for i = 1, 10 do
@@ -27,13 +28,13 @@ end
 
 ### Script/Local
 
-**Script** is for only the serverside for ingame function. *(eg. Parts, Decals)*
+**Script** is for only the *serverside* for ingame function. *(eg. Parts, Decals)*
 
-**LocalScript** is for only the clientside for ingame players. *(eg. Character, Player camera)*
+**LocalScript** is for only the *clientside* for ingame players. *(eg. Character, Player camera)*
 
 ### Links
 
-Links for this page:
+Links for more info:
 
 * [Roblox Documents](https://create.roblox.com/docs)
 * [Luau](https://luau.org/)
