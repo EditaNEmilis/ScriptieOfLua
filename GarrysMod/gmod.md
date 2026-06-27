@@ -22,11 +22,11 @@ Implemented for *Garrys Mod 13*, can be used to script mods (eg. SWEPS, gamemode
 
 ![Shared](https://files.facepunch.com/wiki/files/19952/8d7b58d999caa0e.png) | ![ClientMenu](https://files.facepunch.com/wiki/files/19952/8d7b58a905836e9.png) | ![SharedMenu](https://files.facepunch.com/wiki/files/19952/8d7b58e58180414.png)
 
-**Other** are for shared states, can be executed in either one by function or hook.
+**Other** are for shared states, can be executed in either one by *function* or *hook*.
 
 * Shared (Client and Server)
 * Client and Menu
-* Shared and Menu (all states - Client, Server and Menu)
+* Shared and Menu (All States - Client, Server and Menu)
 
 ### Links
 
