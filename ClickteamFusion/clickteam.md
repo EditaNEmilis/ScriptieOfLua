@@ -1,6 +1,6 @@
 # CLICKTEAM FUSION
 
-**Clickteam Fusion** is a script-free programming tool that allows to create video games or other interactive software using event system.
+**Clickteam Fusion** is a script-free programming tool that allows to create video games or other interactive software using the event system.
 
 ## Lua
 
@@ -24,7 +24,7 @@ Allows you to use the Lua scripting language in Fusion. *Legacy Extension (Not r
 
 ![XLuaObject](https://clickwiki.github.io/wiki/assets/Extensions/Script/xlua.png)
 
-Powerful and extensible embedded Lua support for Fusion.
+A powerful and extensible embedded Lua support in Fusion.
 
 ### Links
 
