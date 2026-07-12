@@ -6,7 +6,7 @@
 
 Clickteam have extension addons for Lua as *objects* and can be used for embedding too.
 
-Only for *Windows* games and applications.
+LUA objects are only for *Windows* games and applications.
 
 ### Objects
 

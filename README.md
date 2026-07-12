@@ -13,7 +13,7 @@ A repo that contains mostly of LUA scripts/files. Inculdes **Roblox, Garry's Mod
 
 ### Why?
 
-As an archive or library to contain *every* type of LUA in each games (or programs) genres.
+As an archive or library to contain *every* type of LUA in each games (and programs) genres.
 
 ~~But that's another time to dream on..~~
 
