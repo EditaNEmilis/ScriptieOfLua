@@ -4,23 +4,23 @@
 
 ## Luau
 
-Roblox's Lua for game scripting is called **Luau**.
+Roblox's Lua language for game scripting is called **Luau**.
 
-**Luau** is the scripting language creators use in *Roblox Studio*. It is a fast, small, safe, gradually typed embeddable scripting language derived from Lua 5.1 version.
+**Luau** is the scripting language that creators use in *Roblox Studio*. It is a fast, small, safe and gradually type embeddable system scripting language derived from the Lua 5.1 version.
 
 ## Examples
 
 *'Hello World!' printing*:
 
 ```luau
--- Basic and simple print function
+-- Basic and simple printing function
 print("Hello World!")
 ```
 
 *Loop number*:
 
 ```luau
--- Print by 10 times from looping by i
+-- Print by 10 times from looping by using i
 for i = 1, 10 do
     print(i)
 end
