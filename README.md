@@ -2,7 +2,7 @@
 
 ## A ~~libary~~ library of LUA codes...
 
-A repo that contains mostly of LUA scripts/files. Inculdes **Roblox, Garry's Mod** and so on.
+A repo that contains mostly of LUA scripts/files. Inculdes **Roblox, Garry's Mod** and more so on.
 
 **Currently in the repo**:
 

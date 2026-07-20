@@ -32,4 +32,6 @@ A powerful and extensible embedded Lua support in Fusion.
 
 ### Links
 
+Links for more info:
+
 * [Click Wiki](https://clickwiki.github.io/extensions/script/)

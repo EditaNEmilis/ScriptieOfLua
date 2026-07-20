@@ -30,5 +30,7 @@ Specialized scripts to hold data that can be accessed by other scripts using the
 
 ### Links
 
+Links for more info:
+
 * [Polytoria Scripting Documentation](https://docs.polytoria.com/)
 * [GitHub Repo](https://github.com/Polytoria/polytoria-game)
