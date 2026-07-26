@@ -1,6 +1,6 @@
 -- The default functionality taken from the base gamemode
 function GM:MouthMoveAnimation(ply)
-	-- Flexes ID
+	-- Flexes IDs
     local flexes = {
 		ply:GetFlexIDByName("jaw_drop"),
 		ply:GetFlexIDByName("left_part"),
