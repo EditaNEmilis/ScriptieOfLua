@@ -1,6 +1,7 @@
 function ColorLight()
-	local x = 0
+	local x = 0 -- Value
 
+	-- Add value
 	x = x + 1
 
 	-- Over color value length
