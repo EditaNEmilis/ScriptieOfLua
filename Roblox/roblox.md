@@ -28,11 +28,11 @@ end
 
 ### Script/Local
 
-![Script](https://robloxapi.github.io/ref/icons/light/Script.png)
+![Script](https://robloxapi.github.io/ref/icons/light/Script.png "Script Icon")
 
 **Script** is for only the *serverside* for ingame function. *(eg. Parts, Decals)*
 
-![LocalScript](https://robloxapi.github.io/ref/icons/light/LocalScript.png)
+![LocalScript](https://robloxapi.github.io/ref/icons/light/LocalScript.png "LocalScript Icon")
 
 **LocalScript** is for only the *clientside* for ingame players. *(eg. Character, Player camera)*
 

@@ -12,13 +12,13 @@ LUA objects are only for *Windows* games and applications.
 
 **Lua Object**
 
-![LuaObject](https://clickwiki.github.io/wiki/assets/Extensions/Script/lua-object.png)
+![LuaObject](https://clickwiki.github.io/wiki/assets/Extensions/Script/lua-object.png "LuaObject")
 
 An object that allows you to use the scripting language Lua in Fusion.
 
 **Lua+**
 
-![Lua+](https://clickwiki.github.io/wiki/assets/Extensions/Script/lua-plus.png)
+![Lua+](https://clickwiki.github.io/wiki/assets/Extensions/Script/lua-plus.png "Lua+ Icon")
 
 Allows you to use the Lua scripting language in Fusion.
 
@@ -26,7 +26,7 @@ Allows you to use the Lua scripting language in Fusion.
 
 **XLua Object**
 
-![XLuaObject](https://clickwiki.github.io/wiki/assets/Extensions/Script/xlua.png)
+![XLuaObject](https://clickwiki.github.io/wiki/assets/Extensions/Script/xlua.png "XLuaObject Icon")
 
 A powerful and extensible embedded Lua support in Fusion.
 
