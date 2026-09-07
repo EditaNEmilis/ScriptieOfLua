@@ -36,7 +36,7 @@ end
 
 **LocalScript** is for only the *clientside* for ingame players. *(eg. Character, Player camera)*
 
-![ModuleScript](https://robloxapi.github.io/ref/icons/light/ModuleScript.png "ModuleScript")
+![ModuleScript](https://robloxapi.github.io/ref/icons/light/ModuleScript.png "ModuleScript Icon")
 
 **ModuleScript** is for running once when *require()* is called with it. Returns exactly one value, usually a table of functions, to used by other scripts.
 
