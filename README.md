@@ -7,9 +7,9 @@ A repo that contains mostly of LUA scripts/files. Inculdes **Roblox, Garry's Mod
 **Currently in the repo**:
 
 * **Roblox**: Currently most scripts in this folder. Uses Luau.
-* **Garry's Mod**: Source game with LUA support, still not much as Roblox.
-* **Clickteam Fusion**: A 2D (and also 3D for Firefly), has support for LUA as a object extension called **XLua**.
-* **Polytoria**: Roblox clone, has similar scripting system to Roblox. Uses Luau.
+* **Garry's Mod**: Source game with LUA scripting support, still not much as Roblox.
+* **Clickteam Fusion**: A 2D (and also 3D for Firefly), has support for LUA scripting as a object extension called **XLua**.
+* **Polytoria**: Roblox clone, has similar scripting system to Roblox. Uses Luau as Roblox.
 
 ### Why?
 
