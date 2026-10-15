@@ -30,7 +30,7 @@ end
 
 ![Script](https://robloxapi.github.io/ref/icons/light/Script.png "Script Icon")
 
-**Script** is for only the *serverside* for ingame function. *(eg. Parts, Decals)*
+**Script** is for only the *serverside* for ingame functions. *(eg. Parts, Decals)*
 
 ![LocalScript](https://robloxapi.github.io/ref/icons/light/LocalScript.png "LocalScript Icon")
 
