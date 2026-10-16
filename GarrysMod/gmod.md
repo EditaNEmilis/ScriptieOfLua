@@ -6,6 +6,17 @@
 
 Implemented for *Garrys Mod 13*, can be used to script mods (eg. SWEPS, gamemodes, and such..)
 
+## Examples
+
+*Chat printing*:
+
+```luau
+-- Player chat printing
+for _, ply in ipairs(player.GetAll()) do
+	ply:ChatPrint("Hello World!")
+end
+```
+
 ### States (Realms)
 
 ![Client](https://files.facepunch.com/wiki/files/19952/8d7b58bc25e14dd.png "Client Icon")
