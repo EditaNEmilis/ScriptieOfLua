@@ -8,6 +8,17 @@ Clickteam have extension addons for Lua as *objects* and can be used for embeddi
 
 LUA objects are only for *Windows* games and applications.
 
+## Examples
+
+```lua
+-- Text String
+function String()
+	local text = "Hello World!"
+
+	return text
+end
+```
+
 ### Objects
 
 **Lua Object**
