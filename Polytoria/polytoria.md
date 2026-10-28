@@ -6,6 +6,24 @@
 
 Similar scripting system to *Roblox*, but while using *Luau* for server-client architecture and synchronized state replication.
 
+## Examples
+
+*Chat broadcast*:
+
+```luau
+-- Broadcasting message
+Chat:BroadcastMessage("Hello, chat!")
+```
+
+*Input key*:
+
+```luau
+-- Input KeyDown
+Input.KeyDown:Connect(function(key)
+    print(key .. " was pressed!")
+end)
+```
+
 ### Scripts
 
 **BaseScript**
