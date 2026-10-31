@@ -12,14 +12,14 @@ Roblox's Lua language for game scripting is called **Luau**.
 
 *'Hello World!' printing*:
 
-```luau
+```lua
 -- Basic and simple printing function
 print("Hello World!")
 ```
 
 *Loop number*:
 
-```luau
+```lua
 -- Print by 10 times from looping by using i
 for i = 1, 10 do
     print(i)

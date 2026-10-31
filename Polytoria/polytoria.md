@@ -10,14 +10,14 @@ Similar scripting system to *Roblox*, but while using *Luau* for server-client a
 
 *Chat broadcast*:
 
-```luau
+```lua
 -- Broadcasting message
 Chat:BroadcastMessage("Hello, chat!")
 ```
 
 *Input key*:
 
-```luau
+```lua
 -- Input KeyDown
 Input.KeyDown:Connect(function(key)
     print(key .. " was pressed!")
